@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>Javascript</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-800">
+    <nav class=" bg-white rounded border-2 border-black ">
+        <div>
+           <span class=" text-1xl font-bold ">
+               <img src="icon.png" class="h-8 w-8 rounded inline " >
+               Calculation Grades
+           </span>
+        </div>
+        <ul class="text-1xl font-bold shadow flex justify-end mr-10 space-x-4 -mt-5 text-black  ">
+            <a  class="hover:text-blue-900 duration-500" href="#"><li>Home</li></a>
+            <a class="hover:text-blue-900 duration-500" href="#"><li>Menu</li></a>
+            <a class="hover:text-blue-900 duration-500" href="#"><li>About</li></a>
+            <a class="hover:text-blue-900 duration-500" href="#"><li>Contact</li></a>
+
+        </ul>
+    </nav>
+    <center class="p-10 my-10">
+        <form class=" bg-slate-300  h-auto w-96 rounded-2xl">
+            <br>
+            <strong class="font-bold text-black shadow "> <img class="h-8 w-8 rounded" src="brain.jpg "> Calculation Grades</strong><br>
+            <br>
+            <p>Web Technology</p>
+            <input type="number" placeholder="Web Technology" id="wd"><br>
+            <p>Math</p>
+            <input type="number" placeholder="Math" id="mth"><br>
+            <p>Physics</p>
+            <input type="number" placeholder="Physics" id="phy"><br>
+            <p>Computer</p>
+            <input type="number" placeholder="Computer" id="comp"><br>
+            <input class=" bg-blue-900 px-2 py-2 rounded my-4" type="button" value="submit" name="" onclick="call()">
+            <div>
+                <p id="showData" class=" h-auto w-auto"></p>
+            </div>
+            
+        </form>
+    </center>
+    <script src="demo.js"></script>
+    <footer>
+        <nav class="bg-white  ">
+            <div class="text-1xl font-bold">
+            <a href="#">Google</a>
+            <a href="#">Youtube</a>
+            <a href="#">Contact</a>
+            </div>
+        </nav>
+    </footer>
+
+
+    
+</body>
+</html>
